@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(199, 199, 199, 0.829);
+}
+.circleBarsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 4px 18px grey;
+  border-radius: 10px;
+  padding: 5px;
+  height: max-content;
+  min-width: 285px;
+  margin: 20px;
+}
+.skillProgressRight {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  flex-direction: column;
+}
+.skillProgressRight span {
+  font-size: 25px;
+  text-align: center;
+}
+Progress {
+  width: 80%;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  left: 10%;
+}
+
+.outterCircle {
+  animation: animate 5s;
+}

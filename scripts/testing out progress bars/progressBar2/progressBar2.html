@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progress Bar 2</title>
+    <link rel="stylesheet" href="progress2Styles.css">
+</head>
+<body>
+    <section class="box">
+       
+        <svg>
+            <circle cx='60' cy='60' r='50' ></circle>
+            <div class="counter">0</div>
+        </svg>
+    </section>
+    
+</section>
+    <!-- the percentage limit would go on line 24 -->
+    <script>
+        let a = 0;
+        let run = setInterval(frames,50);
+        function frames(){
+            a++;
+             if(a == 81){
+                clearInterval(run);
+            }else{
+                let counter = document.querySelector('.counter');
+                counter.textContent = a + "%"
+            }
+        }
+    </script>
+</body>
+</html>
