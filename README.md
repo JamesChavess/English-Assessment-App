@@ -1,2 +1,2 @@
 # English-Assessment-App
-Thisan Idea I have been slowly working on for years
+This is an Idea I've been slowly working on for years
